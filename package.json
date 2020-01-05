@@ -1,0 +1,29 @@
+{
+  "name": "crusader-tribute",
+  "version": "1.0.0",
+  "description": "game with babylon.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-cli",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fakiejohnny/crusader-tribute.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fakiejohnny/crusader-tribute/issues"
+  },
+  "homepage": "https://github.com/fakiejohnny/crusader-tribute#readme",
+  "dependencies": {
+    "babylonjs": "^4.0.3"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
