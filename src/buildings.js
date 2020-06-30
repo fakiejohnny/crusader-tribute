@@ -15,6 +15,7 @@ class Building {
         this.position = new BABYLON.Vector3(0, 2, this.id*6);
     }
     build() {
+        console.log();
         this.appearance = BABYLON.MeshBuilder.CreateBox("myBox", {height: 3, width: 4, depth: 4}, scene);
         this.appearance.position = this.position;
         this.appearance.material = this.material;
